@@ -1,0 +1,20 @@
+.header {
+    background-color: rgba(100, 148, 237, 0.589);
+    display: flex;
+    justify-content: space-between;
+}
+
+.headerNavigation{
+    width: 300px;
+}
+
+.headerNavigation ul{
+    list-style: none;
+}
+
+.headerNavigation ul li{
+    display: inline-block;
+    margin-right: 10px;
+}
+
+
