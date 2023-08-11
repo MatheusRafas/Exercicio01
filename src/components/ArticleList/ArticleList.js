@@ -1,4 +1,5 @@
 import { Article } from "../Article/Article";
+import { Sidebar } from "../Sidebar/Sidebar";
 
 const ARTICLES = [
     {

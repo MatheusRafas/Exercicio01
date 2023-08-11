@@ -1,0 +1,9 @@
+.menu{
+    border: 1px solid black;
+    text-align: center;
+}
+
+.menu li{
+    display: inline-block;
+    margin-right: 100px;
+}

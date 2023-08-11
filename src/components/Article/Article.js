@@ -1,3 +1,4 @@
+import { Sidebar } from "../Sidebar/Sidebar";
 import styles from "./Article.module.css";
 export function Article({postTitle, description}){
     return(
@@ -7,7 +8,7 @@ export function Article({postTitle, description}){
                 <h2>{postTitle}</h2>
                 <p>{description}</p>
             </div>
+
         </article>
-        
     )
 }

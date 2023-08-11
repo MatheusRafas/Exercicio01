@@ -6,11 +6,10 @@ export function Header() {
     return(
         <header className={styles.header}>
             <div className="logo-title">
-                <h1>Olá pessoal</h1>
+                <h1>Blog</h1>
             </div>
             <div className={styles.headerNavigation}>
                 <MainMenu />
-
                 <Search />
             </div>
         </header>
