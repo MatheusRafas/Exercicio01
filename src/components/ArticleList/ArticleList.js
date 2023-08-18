@@ -19,10 +19,10 @@ const ARTICLES = [
 ]
 export function ArticleList() {
     return (
-        <>
+        <div className="aticle-list">
         {ARTICLES.map((art) =>  <Article 
          postTitle={art.postTitle}
          description={art.description}/>)}
-        </>
+        </div>
     )
 }

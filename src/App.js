@@ -10,8 +10,10 @@ function App() {
     <>
       <Header/>
       <BlogMenu/>
-      <ArticleList/> 
-      <Sidebar/>
+      <div className='container'>
+        <ArticleList/>
+        <Sidebar/>
+      </div>
   
     </>
   );

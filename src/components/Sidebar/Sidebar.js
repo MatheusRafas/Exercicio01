@@ -2,8 +2,8 @@ import styles from "./Sidebar.module.css";
 
 export function Sidebar(){
     return(
-        <aside>
-            <ul className={styles.a}>
+        <aside className={styles.sidebar}>
+            <ul>
                 <li><a href="#">Section 1</a></li>
                 <li><a href="#">Section 2</a></li>
                 <li><a href="#">Section 3</a></li>
